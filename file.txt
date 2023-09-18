@@ -1,0 +1,41 @@
+扩展字段
+rotation_chart 轮播图
+[
+  {
+    "image": "http://test.moranyun.cn/static/images/20230811/7a824d814925b306a41add2dac2114f7.jpg",
+    "title": "测试广告1",
+    "url": "https://moranblog.cn/"
+  },
+  {
+    "image": "http://test.moranyun.cn/static/images/20230811/913c3cc1e79611b3f6174b22d060eaf1.jpg",
+    "title": "测试广告2",
+    "url": "https://moranblog.cn/"
+  },
+  {
+    "image": "http://test.moranyun.cn/static/images/20230811/f795a5abc32c7fb9c8cb12ec41c51961.jpg",
+    "title": "测试广告3",
+    "url": "https://moranblog.cn/"
+  }
+]
+
+activity 活动
+[
+  {
+    "image": "http://test.moranyun.cn/static/images/20230811/7a824d814925b306a41add2dac2114f7.jpg",
+    "title": "测试广告1",
+    "detail": "https://moranblog.cn/",
+    "linkUrl": "https://moranblog.cn/"
+  },
+  {
+    "image": "http://test.moranyun.cn/static/images/20230811/913c3cc1e79611b3f6174b22d060eaf1.jpg",
+    "title": "测试广告2",
+    "detail": "https://moranblog.cn/",
+    "linkUrl": "https://moranblog.cn/"
+  },
+  {
+    "image": "http://test.moranyun.cn/static/images/20230811/f795a5abc32c7fb9c8cb12ec41c51961.jpg",
+    "title": "测试广告3",
+    "detail": "https://moranblog.cn/",
+    "linkUrl": "https://moranblog.cn/"
+  }
+]

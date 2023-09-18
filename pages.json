@@ -1,0 +1,187 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "\ue625",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "26px",
+								"float": "left",
+								"color": "#D9D9D9"
+							},
+							{
+								"text": "\ue759",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "24px",
+								"float": "right",
+								"color": "#646464",
+								"redDot": true
+							}
+						],
+						"searchInput": {
+							"backgroundColor": "#F4F4F4",
+							"borderRadius": "15px",
+							"placeholder": "请输入搜索内容",
+							"placeholderColor": "#646464",
+							"align": "center",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/application/index",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"app-plus":{
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path": "pages/user/fanslist",
+		    "style": {
+		        "navigationBarTitleText": "粉丝列表",
+		        "navigationBarTextStyle": "white",
+		        "navigationBarBackgroundColor": "#2469f6",
+		        "enablePullDownRefresh": true
+		    }
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/common/webview"
+		},
+		{
+			"path": "pages/user/register",
+			"style": {
+				"navigationBarTitleText": "注册账号",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/activity",
+			"style": {
+				"navigationBarTitleText": "活动专区",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/rankingList",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/group",
+			"style": {
+				"navigationBarTitleText": "群组",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/forum/post_list",
+			"style": {
+				"navigationBarTitleText": "文章列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/forum/article_details",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/forum/section",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/user_list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#475BD8",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath": "static/image/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/application/index",
+				"iconPath": "static/image/application.png",
+				"selectedIconPath": "static/image/application_active.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"iconPath": "static/image/news.png",
+				"selectedIconPath": "static/image/news_active.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/image/user.png",
+				"selectedIconPath": "static/image/user_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
